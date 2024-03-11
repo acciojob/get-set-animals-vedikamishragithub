@@ -28,11 +28,11 @@ class Dog extends Animal {
 }
 const myCat = new Cat("Siamese");
 myCat.makeSound(); // Output: The Siamese makes a sound
-
+myCat.purr();
 
 const myDog = new Dog("Golden Retriever");
 myDog.makeSound(); // Output: The Golden Retriever makes a sound
-f
+myDog.bark();
 
 
 // Do not change the code below this line
