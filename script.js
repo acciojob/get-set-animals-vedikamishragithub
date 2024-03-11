@@ -5,7 +5,7 @@ class Animal {
 	this.species=species;
 	}
 	 makeSound(){
-     return ` ${this.species} makes a sound`;
+     return  `${this.species} makes a sound`;
 	}
 }
 
@@ -33,6 +33,7 @@ myCat.purr(); // Output: purr
 const myDog = new Dog("Golden Retriever");
 myDog.makeSound(); // Output: The Golden Retriever makes a sound
 myDog.bark(); // Output: woof
+
 
 // Do not change the code below this line
 window.Animal = Animal;
